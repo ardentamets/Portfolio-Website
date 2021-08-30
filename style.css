@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Urbanist&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    height: 50%;
+    background-color: rgba(69, 95, 145, 0.205);
+   
+}
+ @media screen and(
+     max-width:992px )
+     {
+         body{
+             background-color:rgb(214, 211, 211) ;
+         }
+     }
+     @media screen and(
+        max-width:600px )
+        {
+            body{
+                background-color:rgb(207, 196, 196) ;
+            }
+        }
+
+        
+
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    background: rgb(97, 99, 105)!important;
+   padding:5px 0 ;
+   
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#6694f7;
+}
+
+
+.heading-content{ 
+    position:absolute;
+    margin-top: 160px;
+    margin-bottom: 100%;
+    width: 100%;
+    text-align: center;
+    right: 5px;
+    max-width: 100%;
+   
+}
+
+.heading-content h4{
+   
+    font-size: 3em;
+    font-weight:300;
+    color: rgb(67, 93, 226);
+    
+}
+.heading-content h3{
+    font-size:2em ;
+    font-weight:lighter;
+    color: rgb(68, 99, 165);
+}
+
+.social-links {
+    position:absolute;
+    margin-top: 275px;
+    right:46%;
+    letter-spacing: 1rem;
+    color:rgb(113, 127, 141);
+    align-items: center;
+}
+.social-links:hover{
+    color:#d5dff3;
+}
+
+.profile{
+    position: absolute;
+    right:47% ;
+    margin-top: 50px;
+    width: 100px;
+   clip-path: circle();
+}
+
+
+
+.form-group{
+    margin-bottom: 20px;
+}
+.set:before{
+    display: block;
+    content: "";
+    height: 6rem;
+    margin-top: 55%;
+}
+
+.offset:before{
+    display: block;
+    content: "";
+    height: 6rem;
+    
+}
